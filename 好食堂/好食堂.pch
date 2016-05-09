@@ -1,0 +1,19 @@
+//
+//  好食堂.pch
+//  好食堂
+//
+//  Created by 郭首龙 on 16/3/1.
+//  Copyright © 2016年 郭首龙. All rights reserved.
+//
+
+#ifndef ____pch
+#define ____pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Common.h"
+#endif /* ____pch */
